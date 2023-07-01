@@ -42,6 +42,7 @@ const Header = () => {
         <Toolbar>
         <Avatar alt="Blog App" src="https://img.freepik.com/premium-vector/letter-b-robot-logo-design-vector-illustration-template_110373-1411.jpg?size=626&ext=jpg&uid=R88677296&ga=GA1.1.1158190123.1681072586&semt=ais" />
           <Typography variant="subtitle2" fontSize={28} marginLeft={2}>Scribble Spot</Typography>
+          <Tab label="Home" LinkComponent={Link} to="/" sx ={{padding:1}}/>
           {isLogin && (
             <Box display={"flex"} marginLeft="auto" marginRight={"auto"}>
               <Tabs
